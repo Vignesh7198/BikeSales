@@ -1,21 +1,12 @@
-package com.bike.dao;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+package com.bike.dto;
 
 
-
-@Entity
 public class Bike {
 	
-	@Id
+	
 	private int bikeModelNo;
 	private String bikeName;
 	private String bikeColor;
-	
-	
-	
 	public int getBikeModelNo() {
 		return bikeModelNo;
 	}
@@ -39,6 +30,6 @@ public class Bike {
 	
 	
 	
-	
+
 
 }

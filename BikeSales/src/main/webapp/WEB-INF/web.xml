@@ -3,5 +3,25 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+ 
+  <display-name>WelcomeFile</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>frontPage.xhtml</welcome-file>
+    <welcome-file>input.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  <servlet>
+  	<servlet-name>bike</servlet-name>
+  	<display-name>bike</display-name>
+  	<description></description>
+  	<servlet-class>ServletClass.bike</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>bike</servlet-name>
+  	<url-pattern>/bike</url-pattern>
+  </servlet-mapping>
 </web-app>
